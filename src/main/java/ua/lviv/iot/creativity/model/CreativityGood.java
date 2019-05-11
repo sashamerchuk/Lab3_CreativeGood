@@ -41,7 +41,10 @@ public class CreativityGood {
     public void setType(Type type) {
         this.type = type;
     }
-    
-   
-    
+    public String getHeaders() {
+        return "type" + "," + "price" + "," + "name";
+    }
+public String toCSV() {
+return this.type + "," + this.price + "," + this.name;
+}
 }

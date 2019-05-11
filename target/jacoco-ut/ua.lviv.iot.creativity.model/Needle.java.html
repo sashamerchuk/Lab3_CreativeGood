@@ -14,16 +14,24 @@ public class Needle extends CreativityGood {
     public String toString() {
 <span class="nc" id="L15">        return super.toString() + &quot; Diameter : &quot; + diameter;</span>
     };
-    
 
     public int getDiameter() {
-<span class="fc" id="L20">        return diameter;</span>
+<span class="fc" id="L19">        return diameter;</span>
     }
 
     public void setDiameter(int diameter) {
-<span class="fc" id="L24">        this.diameter = diameter;</span>
-<span class="fc" id="L25">    }</span>
-    
+<span class="fc" id="L23">        this.diameter = diameter;</span>
+<span class="fc" id="L24">    }</span>
+
+@Override
+    public String getHeaders() {
+<span class="fc" id="L28">        return super.getHeaders() + &quot;,&quot; + &quot;diameter&quot;;</span>
+    }
+
+@Override
+    public String toCSV() {
+<span class="fc" id="L33">        return super.toCSV() + &quot;,&quot; + this.diameter;</span>
+    }
 
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.3.201901230119</span></div></body></html>

@@ -14,7 +14,6 @@ public class Needle extends CreativityGood {
     public String toString() {
         return super.toString() + " Diameter : " + diameter;
     };
-    
 
     public int getDiameter() {
         return diameter;
@@ -23,6 +22,15 @@ public class Needle extends CreativityGood {
     public void setDiameter(int diameter) {
         this.diameter = diameter;
     }
-    
+
+@Override
+    public String getHeaders() {
+        return super.getHeaders() + "," + "diameter";
+    }
+
+@Override
+    public String toCSV() {
+        return super.toCSV() + "," + this.diameter;
+    }
 
 }

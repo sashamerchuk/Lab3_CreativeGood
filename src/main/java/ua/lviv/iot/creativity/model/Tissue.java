@@ -32,7 +32,14 @@ public class Tissue extends CreativityGood {
 
     public void setHeight(int height) {
         this.height = height;
+}
+@Override
+    public String getHeaders() {
+        return super.toCSV() + "," + "width" + "height";
     }
-    
-    
+
+@Override
+    public String toCSV() {
+        return super.toCSV() + "," + this.width + "," + this.height;
+    }
 }

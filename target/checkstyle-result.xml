@@ -1,34 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <checkstyle version="6.18">
-<file name="C:\Users\User\Desktop\Laba4\src\main\java\ua\lviv\iot\creativity\manager\CreativityManager.java">
-<error line="21" column="9" severity="error" message="&apos;}&apos; at column 9 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else or try/catch/finally)." source="com.puppycrawl.tools.checkstyle.checks.blocks.RightCurlyCheck"/>
-<error line="22" column="13" severity="error" message="&apos;{&apos; at column 13 should have line break after." source="com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"/>
-<error line="30" column="9" severity="error" message="&apos;}&apos; at column 9 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else or try/catch/finally)." source="com.puppycrawl.tools.checkstyle.checks.blocks.RightCurlyCheck"/>
-<error line="31" column="14" severity="error" message="&apos;{&apos; at column 14 should have line break after." source="com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"/>
+<file name="C:\Users\User\Desktop\Lab3_CreativeGood\src\main\java\ua\lviv\iot\creativity\manager\CreativityGoodWriter.java">
 </file>
-<file name="C:\Users\User\Desktop\Laba4\src\main\java\ua\lviv\iot\creativity\manager\ICreativityManager.java">
+<file name="C:\Users\User\Desktop\Lab3_CreativeGood\src\main\java\ua\lviv\iot\creativity\manager\CreativityManager.java">
 </file>
-<file name="C:\Users\User\Desktop\Laba4\src\main\java\ua\lviv\iot\creativity\model\CreativityGood.java">
-<error line="0" severity="error" message="File does not end with a newline." source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
-<error line="44" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
-<error line="45" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
-<error line="46" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<file name="C:\Users\User\Desktop\Lab3_CreativeGood\src\main\java\ua\lviv\iot\creativity\manager\ICreativityManager.java">
 </file>
-<file name="C:\Users\User\Desktop\Laba4\src\main\java\ua\lviv\iot\creativity\model\Needle.java">
-<error line="0" severity="error" message="File does not end with a newline." source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
-<error line="17" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
-<error line="26" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
-</file>
-<file name="C:\Users\User\Desktop\Laba4\src\main\java\ua\lviv\iot\creativity\model\Thread.java">
+<file name="C:\Users\User\Desktop\Lab3_CreativeGood\src\main\java\ua\lviv\iot\creativity\model\CreativityGood.java">
 <error line="0" severity="error" message="File does not end with a newline." source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
 </file>
-<file name="C:\Users\User\Desktop\Laba4\src\main\java\ua\lviv\iot\creativity\model\Tissue.java">
-<error line="36" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
-<error line="37" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<file name="C:\Users\User\Desktop\Lab3_CreativeGood\src\main\java\ua\lviv\iot\creativity\model\Needle.java">
+<error line="0" severity="error" message="File does not end with a newline." source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
 </file>
-<file name="C:\Users\User\Desktop\Laba4\src\main\java\ua\lviv\iot\creativity\model\Type.java">
+<file name="C:\Users\User\Desktop\Lab3_CreativeGood\src\main\java\ua\lviv\iot\creativity\model\Thread.java">
+<error line="0" severity="error" message="File does not end with a newline." source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
 </file>
-<file name="C:\Users\User\Desktop\Laba4\src\main\java\ua\lviv\iot\main\Main.java">
+<file name="C:\Users\User\Desktop\Lab3_CreativeGood\src\main\java\ua\lviv\iot\creativity\model\Tissue.java">
+</file>
+<file name="C:\Users\User\Desktop\Lab3_CreativeGood\src\main\java\ua\lviv\iot\creativity\model\Type.java">
+</file>
+<file name="C:\Users\User\Desktop\Lab3_CreativeGood\src\main\java\ua\lviv\iot\main\Main.java">
 <error line="0" severity="error" message="File does not end with a newline." source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
 </file>
 </checkstyle>

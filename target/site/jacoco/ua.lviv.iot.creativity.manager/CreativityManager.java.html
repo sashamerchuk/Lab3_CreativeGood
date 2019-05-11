@@ -18,8 +18,8 @@ public class CreativityManager implements ICreativityManager {
     public void sortByPrice(List&lt;CreativityGood&gt; creativityGood, boolean reverse) {
 <span class="pc bpc" id="L19" title="1 of 2 branches missed.">        if (reverse) {</span>
 <span class="fc" id="L20">            Collections.sort(creativityGood, Comparator.comparing(CreativityGood::getPrice).reversed());</span>
-        }
-<span class="nc" id="L22">        else{Collections.sort(creativityGood, Comparator.comparing(CreativityGood::getPrice));</span>
+        }else{
+<span class="nc" id="L22">            Collections.sort(creativityGood, Comparator.comparing(CreativityGood::getPrice));</span>
     }
 <span class="fc" id="L24">    }</span>
 
@@ -27,8 +27,8 @@ public class CreativityManager implements ICreativityManager {
     public List&lt;CreativityGood&gt; sortByName(List&lt;CreativityGood&gt; creativityGood, boolean reverse) {
 <span class="pc bpc" id="L28" title="1 of 2 branches missed.">        if(reverse) {</span>
 <span class="fc" id="L29">            Collections.sort(creativityGood, Comparator.comparing(CreativityGood::getName).reversed());</span>
-        }
-<span class="nc" id="L31">        else { Collections.sort(creativityGood, Comparator.comparing(CreativityGood::getName));</span>
+        }else {
+<span class="nc" id="L31">            Collections.sort(creativityGood, Comparator.comparing(CreativityGood::getName));</span>
         }
 <span class="fc" id="L33">        return creativityGood;</span>
         }
